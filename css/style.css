@@ -1,0 +1,68 @@
+* {
+   margin: 0;
+    font-family: 'Orbitron', sans-serif; 
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 2rem;
+    height: 39rem;
+    background-color: white;
+}
+.container h1{
+    color:blue;
+}
+.timer{
+    display: flex;
+    font-size: 3.438rem;
+    font-weight: bold;
+    color: gray;
+}
+.time {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5rem;
+    color: darkslateblue;
+    min-width: 5rem ;
+}
+.separator {
+    padding: 0 0.6rem;
+    color:gray;    
+}
+
+#milliseconds{
+    font-size: 1.8rem;
+    color: gray;
+}
+
+.buttons{
+    display: flex;
+    gap: 1rem;
+}
+.btn{
+    padding: 0.6rem 1.2rem;
+    font-size: 1.1rem ;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    border-width: 0.1rem;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #ccc;
+    transition: all 0.2s ease-in-out;
+}
+.btn:hover{
+    transform:scale(1.1);
+
+}
+
+#startBtn{
+    background-color: blue;
+    color: white;    
+}
+
+#pauseBtn, #resumeBtn{
+    display: none;
+}
